@@ -3,4 +3,4 @@
 - name: Decompress
   uses: TonyBogdanov/zip@1.0
   with:
-      args: unzip -qq ./RSA2.zip -d ./
+      args: unzip -qq ./RSA2.zip -d ./rsa2
