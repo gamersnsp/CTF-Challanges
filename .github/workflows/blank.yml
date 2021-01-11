@@ -1,0 +1,6 @@
+- name: tonybogdanov-zip
+  uses: TonyBogdanov/zip@1.0
+- name: Decompress
+  uses: TonyBogdanov/zip@1.0
+  with:
+      args: unzip -qq ./archive.zip -d ./target
